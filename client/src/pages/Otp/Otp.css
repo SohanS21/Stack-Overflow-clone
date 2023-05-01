@@ -1,0 +1,35 @@
+.container-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30vh;
+    background-color: rgb(66, 167, 235);
+    position:fixed;
+    right: 40%;
+    padding: 20px 50px;
+    border: transparent;
+    border-radius: 10px;
+}
+.container-2 h1{
+    font-weight: 700; 
+    color: white;
+    margin-bottom: 50px;
+}
+.phone{
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 20px;
+}
+.sendbtn{
+    padding: 7px;
+    margin-top: 25px;
+    border: solid 1px blue;
+    background-color: #e7f8fe;
+    border-radius: 7px;
+    margin-bottom: 30px; 
+}
+.sendbtn:hover{
+    background-color: #d3e4eb;
+    cursor: pointer;
+}

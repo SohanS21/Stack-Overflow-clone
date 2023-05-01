@@ -1,0 +1,65 @@
+.chatbot{
+    display: flex;
+    justify-content:center;
+    box-shadow: 5px 5px 13px rgba(91,81,81,.4);
+    position:fixed;
+    z-index: 6;
+    right: 40px;
+    bottom: 1px;
+    margin-bottom: 100px;
+}
+.chat-btn{
+    position: fixed;
+    right: 70px;
+    bottom: 20px;
+    z-index: 6;
+}
+.botbtn{
+    border-radius: 50%;
+    /* background-color: rgb(196, 105, 196); */
+    padding: 5px;
+    border: solid 1px  #2898cc ;
+    transition: ease-in-out 0.1s;
+}
+.botbtn:hover{
+    cursor: pointer;
+    border: none;
+    background-color: #2898cc;
+    z-index: 6;
+}
+.botbtn img{
+    width: 40px;
+}
+.learning-options-container {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+  
+.learning-option-button {
+    padding: 0.5rem;
+    border-radius: 25px;
+    background: transparent;
+    border: 1px solid green;
+    margin: 3px;
+    cursor: pointer;
+}
+.link-list {
+    padding: 0;
+  }
+  
+.link-list-item {
+    text-align: left;
+    font-size: 0.9rem;
+}
+  
+.link-list-item-url {
+    text-decoration: none;
+    margin: 6px;
+    display: block;
+    color: #1d1d1d;
+    background-color: #f1f1f1;
+    padding: 8px;
+    border-radius: 3px;
+    box-shadow: 2px 2px 4px rgba(150, 149, 149, 0.4);
+}

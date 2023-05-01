@@ -1,0 +1,95 @@
+.space{
+    padding: 20px;
+}
+.container{
+    background-color: hsl(210,8%,25%);
+    background: linear-gradient(180deg,hsl(210,8%,15%),hsl(210,8%,35%));
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.sample{
+    background-color: white;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.line{
+    height:2px;
+    background-color: hsl(27,90%,50%);
+}
+.free-btn{
+    margin-top: 150px;
+    display: flex;
+}
+.free{
+    background-color: hsl(27,90%,50%);
+    display: flex;
+    align-self: flex-start;
+    padding: 5px 10px;
+    border-radius: 4px;
+    color: white;
+    font-weight: 500;
+}
+.free-btn{
+    padding: 10px 40px;
+    background-color:hsl(27,90%,50%) ;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    transition: ease-in-out 0.2s;
+}
+.free-btn:hover{
+    background-color: hsl(27,90%,39%);
+}
+.sample h1{
+    margin-bottom: 0;
+}
+.sample h5{
+    color:rgb(184, 184, 184);
+    font-weight: 500;
+    margin-top: 2px;
+}
+.silver{
+    background-color: hsl(210,8%,55%);
+}
+.silver-btn{
+    background-color:hsl(210,8%,55%) ;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 500;
+    margin-top: 112px;
+    cursor: pointer;
+    transition: ease-in-out 0.2s;
+}
+.silver-btn:hover{
+    background-color: hsl(210, 6%, 45%);
+}
+.gold{
+    background-color: hsl(210,8%,55%);
+}
+.gold-btn{
+    background-color:hsl(210,8%,55%) ;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 500;
+    margin-top: 40px;
+    cursor: pointer;
+    transition: ease-in-out 0.2s;
+}
+.gold-btn:hover{
+    background-color: hsl(210, 6%, 45%);
+}
