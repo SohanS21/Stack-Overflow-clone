@@ -17,7 +17,7 @@ const Payment = () => {
             order_id:data.id,
             handler: function(response){
                 console.log(response,"12")
-                axios.post('http://localhost:5000/order/verify')
+                axios.post('https://stack-overflow-h7rv.onrender.com/order/verify')
                 .then(res=>{
                     console.log(res,"16")
                     navigate('/')
@@ -32,7 +32,7 @@ const Payment = () => {
 
     const handlePaymentGold=()=>{
         const _data = { amount : 1000 }
-        axios.post('http://localhost:5000/order/orders',_data)
+        axios.post('https://stack-overflow-h7rv.onrender.com/order/orders',_data)
         .then(res => {
             console.log(res.data,"29")
             handleOpenRazorpay(res.data.data)
@@ -43,7 +43,7 @@ const Payment = () => {
 
     const handlePaymentSilver=()=>{
         const _data = { amount : 100 }
-        axios.post('http://localhost:5000/order/orders',_data)
+        axios.post('https://stack-overflow-h7rv.onrender.com/order/orders',_data)
         .then(res => {
             console.log(res.data,"29")
             handleOpenRazorpay(res.data.data)
