@@ -93,7 +93,7 @@ const QuestionsDetails = () => {
     }
 
     const location = useLocation()
-    const url = "http://localhost:3000"
+    const url = "https://stack-overflow-h7rv.onrender.com"
     const handleShare = () =>{
       copy(url+location.pathname)
       alert('Copied url :'+url+location.pathname)
